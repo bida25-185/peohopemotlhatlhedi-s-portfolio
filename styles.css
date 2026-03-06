@@ -1,34 +1,90 @@
-<!DOCTYPE html> 
+/* Global */
+body {
+    background-color: #ffeaf4;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding-bottom: 40px;
+}
 
-<html lang="en"> 
+/* Navigation */
+nav {
+    background-color: white;
+    border-bottom: 1px solid #f7c9df;
+    padding: 15px 0;
+}
 
-<head> 
+nav a {
+    font-weight: 600;
+    margin: 0 12px;
+    color: #d63384 !important;
+}
 
-    <meta charset="UTF-8"> 
+nav a:hover {
+    color: #a30767 !important;
+}
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+/* Page Titles */
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #d63384;
+}
 
-    <title>Peo Motlhatlhedi</title> 
+h1 span, h2 span {
+    color: #a30767;
+}
 
-</head> 
+/* Section container */
+section {
+    max-width: 950px;
+    margin: auto;
+    padding: 40px 15px;
+}
 
-<body> 
-<nav> 
+/* Buttons */
+.btn-primary {
+    background-color: #d63384;
+    border-color: #d63384;
+}
 
-    <a href="index.html">Home</a> 
+.btn-primary:hover {
+    background-color: #a30767;
+}
 
-    <a href="about.html">About</a> 
+/* Cards */
+.card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    background-color: white;
+    transition: 0.3s;
+}
 
-    <a href="projects.html">Projects</a> 
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
 
-    <a href="resume.html">Resume</a> 
+.card-title {
+    color: #d63384;
+}
 
-    <a href="contact.html">Contact</a> 
+/* Resume Box */
+.resume-box {
+    background: white;
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    margin-top: 20px;
+}
 
-</nav> 
+/* Contact Links */
+.contact-link {
+    color: #d63384;
+    font-weight: 500;
+}
 
-    <!-- Your content will go here --> 
-
-</body> 
-
-</html>
+.contact-link:hover {
+    color: #a30767;
+}
